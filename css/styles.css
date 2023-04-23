@@ -1,0 +1,392 @@
+@import "node_modules/modern-normalize/modern-normalize.css";
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+:root {
+  --primery-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --second-background: #f5f4fa;
+  --footer-background: #2f303a;
+}
+a { 
+  text-decoration: none;
+}
+a:focus{
+  color: var(--accent-color);
+}
+.correo-header {
+  color: #757575;
+  font-weight: 500;
+}
+.numero-telefonico-header {
+  color: var(--primery-text-color);
+  font-weight: 500;
+}
+.logo {
+  color: #2196f3;
+  font-family: "Raleway", sans-serif;
+  font-style: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  text-align: right;
+  vertical-align: top;
+  letter-spacing: 0.03em;
+}
+h1 {
+  color: var(--primary-white-color);
+  font-family: "Roboto", sans-serif;
+  font-style: black;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  vertical-align: top;
+  letter-spacing: 0.06em;
+}
+.boton {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  font-weight: 500;
+  border: 0;
+}
+a:hover {
+  color: var(--accent-color);
+}
+body {
+  background-color: var(--primary-white-color);
+  color: var(--title-text-color);
+  font-family: "Roboto", sans-serif;
+}
+p {
+  color: var(--primery-text-color);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 1.71;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 0.03em;
+}
+.links {
+  font-family: "Roboto", sans-serif;
+  font-style: black;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 0.02em;
+  color: var(--title-text-color);
+}
+footer {
+  background-color: #2f303a;
+}
+.direccion-mexico-footer {
+  color: var(--primary-white-color);
+  font-style: normal;
+}
+.correo-footer {
+  color: var(--primery-text-color);
+  font-style: normal;
+}
+.numero-telefonico-footer {
+  color: var(--primery-text-color);
+  font-style: normal;
+}
+li {
+  list-style-type: none;
+}
+.titulo-tarjetas {
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  font-size: 18px;
+  line-height: 2;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 0.06em;
+}
+button {
+  cursor: pointer;
+}
+.botones-portafolio:hover {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+h2{
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  vertical-align: top;
+  letter-spacing: 0.03em;
+}
+h3{
+  font-family: "Roboto", sans-serif;
+  font-style: bold;
+  font-size: 16px;
+  line-height: 2;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 0.06em;
+}
+.botones-portafolio{
+  font-family: "Roboto", sans-serif;
+  font-style: medium;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  vertical-align: top;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+}
+.correo-header{
+  font-family: "Roboto", sans-serif;
+    font-style: medium;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 0.02em;
+}
+.correo-footer{
+  font-family: "Roboto", sans-serif;
+    font-style: medium;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 0.02em;
+}
+.numero-telefonico-header{
+font-family: "Roboto", sans-serif;
+  font-style: medium;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: left;
+  vertical-align: top;
+  letter-spacing: 0.02em;
+}
+.numero-telefonico-footer{
+  font-family: "Roboto", sans-serif;
+    font-style: medium;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: left;
+    vertical-align: top;
+    letter-spacing: 0.02em;
+}
+.links.active{
+  color: var(--accent-color);
+}
+.links:focus{
+  background-color: var(--primary-white-color);
+  color: var(--accent-color);
+}
+.botones-portafolio:focus{
+  background-color: var(--accent-color);
+  color: var(--primary-white-color)
+}
+.nuestro-equipo{
+  background-color: var(--second-background);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  margin: auto;
+  width: 1200px;
+  padding: 0 15px;
+}
+.nav{
+  display: flex;
+  align-items: center;
+}
+.header-lista-links{
+  display: flex;
+  align-items: center;
+  padding-left: 93px;
+}
+.header-links{
+  padding-left: 50px;
+}
+.header{
+  width: auto;
+  border-bottom: 1px solid #ECECEC;
+}
+.header-lista-contactos{
+  display: flex;
+  margin-left: auto;
+}
+.header-contactos{
+  padding-left: 50px;
+}
+.links{
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.correo-header,
+.numero-telefonico-header{
+  display: block;
+  padding: 32px 0px;
+}
+.solicite-nuestro-servicio {
+  background-color: #2f303a;
+  padding: 200px 0px;
+  text-align: center;
+}
+.soluciones-efectivas-para-su-negocio{
+  max-width: 696px;
+  padding-top: 0;
+  padding-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.boton{
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.lista-section{
+  display: flex;
+  gap: 30px;
+}
+.material{
+  flex-basis: calc((100% - 90px) / 4);
+}
+.section-informacion{
+  padding-top: 94px;
+}
+.titulo-section{
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+.a-que-nos-dedicamos{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.titulo-imagenes{
+  padding-bottom: 50px; 
+}
+.lista-imagenes{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 23px;
+}
+.imagen{
+  flex-basis: calc((100% - 46px) / 3);
+}
+.titulo-nuestro-equipo{
+  padding-bottom: 50px;
+  padding-top: 94px;
+}
+.lista-equipo{
+  display: flex;
+  padding-bottom: 94px;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.tarjeta-equipo{
+  background-color: var(--primary-white-color);
+  flex-basis: calc((100% - 90px)/ 4);
+}
+.equipo-tarjeta{
+  padding: 30px 0px;
+}
+.integrantes{
+  padding-bottom: 10px;
+  text-align: center;
+}
+.profecion{
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.footer{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-lista:not(:last-child){
+  padding-bottom: 9px;
+}
+.footer-contactos:not(:last-child){
+  padding-right: 30px;
+  padding-bottom: 9px;
+}
+.footer-contactos{
+  width: 270px;
+}
+.futer{
+  display: inline-block;
+  padding-bottom: 20px;
+}
+.portafolio{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.lista-botones{
+  list-style-type: none;
+  gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+.lista-tarjetas{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.botones-portafolio{
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  border-radius: 4px;
+}
+.botones-portafolio,
+.boton2{
+  padding: 6px 22px;
+}
+.tarjetas-portafolio{
+  flex-basis: calc((100% - 180px)/ 9);
+}
+.tarjetas-portafolio:nth-child(3n){
+  padding-right: 0;
+}
+.tarjetas-portafolio:nth-last-child(-n + 3) {
+  padding-bottom: 0;
+}
+.tarjetas-descripcion{
+  border-bottom: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;
+}
+.titulo-tarjetas{
+  margin-bottom: 4px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.texto-tarjetas{
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+.border{
+  padding: 38px 24px;
+}
+.exepcion{
+  padding: 20px 24px;
+}
