@@ -239,9 +239,13 @@ font-family: "Roboto", sans-serif;
   padding: 32px 0px;
 }
 .solicite-nuestro-servicio {
-  background-color: #2f303a;
+  background-color: var(--footer-background);
   padding: 200px 0px;
   text-align: center;
+  background-image: url("../images/imagebg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .soluciones-efectivas-para-su-negocio{
   max-width: 696px;
