@@ -394,3 +394,21 @@ font-family: "Roboto", sans-serif;
 .exepcion{
   padding: 20px 24px;
 }
+.tarjetas-portafolio:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+/* .redes-sociales{
+  display: flex;
+  list-style-type: none;
+  height: 44px;
+  align-items: center;
+  padding: 0 32px;
+}
+.red{
+  display: flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+} */
