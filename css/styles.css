@@ -480,3 +480,29 @@ font-family: "Roboto", sans-serif;
   margin-bottom: 30px;
   background-color: var(--second-background);
 }
+.lista-empresas{
+  display: flex;
+  gap: 30px;
+}
+.empresa{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+  padding: 16px 32px;
+  color: #AFB1B8;
+}
+.empresa-svg{
+  height: 60px;
+  width: 106px;
+}
+.clientes{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.clientes-regulares{
+  padding-bottom: 50px;
+}
