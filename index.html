@@ -39,12 +39,16 @@
         <ul class="header-lista-contactos">
           <li class="header-contactos">
             <a class="correo-header" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
+              ><svg class="correo">
+                <use href="images/SVG/sprite.svg#correo"></use>
+              </svg> info@devstudio.com</a
             >
           </li>
           <li class="header-contactos">
             <a class="numero-telefonico-header" href="tel:+380961111111"
-              >+38 096 111 11 11</a
+              ><svg class="telefono">
+                <use href="images/SVG/sprite.svg#telefono"></use>
+              </svg> +38 096 111 11 11</a
             >
           </li>
         </ul>
@@ -61,6 +65,13 @@
         <div class="container">
           <ul class="lista-section">
             <li class="material">
+              <div class="bgsvg">
+                <svg class="antena">
+                  <use href="images/SVG/sprite.svg#antena">
+                    
+                  </use>
+                </svg>
+              </div>
               <h3 class="titulo-section">ATENCION A LOS DETALLES</h3>
               <p class="informacion-titulo-section">
                 Nos adentramos en todos los detalles y procesos de su negocio,
@@ -68,6 +79,13 @@
               </p>
             </li>
             <li class="material">
+              <div class="bgsvg">
+                <svg class="reloj">
+                  <use href="images/SVG/sprite.svg#reloj">
+                    
+                  </use>
+                </svg>
+              </div>
               <h3 class="titulo-section">PUNTUALIDAD</h3>
               <p class="informacion-titulo-section">
                 Con nosotros, usted puede sentirse seguro y protegido. Un
@@ -76,6 +94,13 @@
               </p>
             </li>
             <li class="material">
+              <div class="bgsvg">
+                <svg class="diagrama">
+                  <use href="images/SVG/sprite.svg#diagrama">
+                    
+                  </use>
+                </svg>
+              </div>
               <h3 class="titulo-section">PLANIFICACION</h3>
               <p class="informacion-titulo-section">
                 Usted podrá observar y participar en cada fase del desarrollo y
@@ -83,6 +108,13 @@
               </p>
             </li>
             <li class="material">
+              <div class="bgsvg">
+                <svg class="astronauta">
+                  <use href="images/SVG/sprite.svg#astronauta">
+                    
+                  </use>
+                </svg>
+              </div>
               <h3 class="titulo-section">TECNOLOGIA MODERNA</h3>
               <p class="informacion-titulo-section">
                 Usamos herramientas innovadoras para resolver las tareas
@@ -299,7 +331,8 @@
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
+      <div class="container container-footer">
+        <div>
         <a href="#logo" class="logo futer" lang="es">
           <span>Web</span><span>Studio</span></a
         >
@@ -327,6 +360,40 @@
             </li>
           </ul>
         </address>
+        </div>
+        <section class="encuentranos">
+            <h3 class="encuentranosen">ENCUENTRANOS EN</h3>
+          <ul class="redes-sociales-footer">
+                <li class="redes-footer">
+                  <a href="#" class="red-footer">
+                  <svg class="icon">
+                    <use href="images/SVG/sprite.svg#instagram"></use>
+                  </svg>
+                  </a>
+                </li>
+                <li class="redes-footer">
+                  <a href="#" class="red-footer">
+                  <svg class="icon">
+                    <use href="images/SVG/sprite.svg#twitter"></use>
+                  </svg>
+                  </a>
+                </li>
+                <li class="redes-footer">
+                  <a href="#" class="red-footer">
+                  <svg class="icon">
+                    <use href="images/SVG/sprite.svg#facebook"></use>
+                  </svg>
+                  </a>
+                </li>
+                <li class="redes-footer">
+                  <a href="#" class="red-footer">
+                  <svg class="icon">
+                    <use href="images/SVG/sprite.svg#linkedin"></use>
+                  </svg>
+                  </a>
+                </li>
+              </ul>
+        </section>
       </div>
     </footer>
   </body>

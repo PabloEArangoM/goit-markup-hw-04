@@ -407,7 +407,6 @@ font-family: "Roboto", sans-serif;
 .icon{
   height: 20px;
   width: 20px;
-  fill: var(--primary-white-color);
 }
 .red{
   display: flex;
@@ -422,4 +421,62 @@ font-family: "Roboto", sans-serif;
   background-color: var(--accent-color);
   border-radius: 50%;
   color: var(--primary-white-color);
+}
+.encuentranos{
+  padding-left: 70px;
+  color: var(--primary-white-color);
+}
+.encuentranosen{
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 0.875;
+  padding-bottom: 20px;
+}
+.container-footer{
+  display: flex;
+}
+.redes-sociales-footer{
+  display: flex;
+  gap: 10px;
+}
+.red-footer{
+  display: flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border-radius: 50%;
+}
+.red-footer:hover{
+  background-color: var(--accent-color);
+  border-radius: 50%;
+  color: var(--primary-white-color);
+}
+.telefono{
+  height: 16px;
+  width: 10px;
+  margin-right: 10px;
+}
+.correo{
+  height: 16px;
+  width: 10px;
+  margin-right: 10px;
+}
+.antena,
+.reloj,
+.diagrama,
+.astronauta {
+  width: 70px;
+  height: 70px;
+}
+.bgsvg{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: var(--second-background);
 }
