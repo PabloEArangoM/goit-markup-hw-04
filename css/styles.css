@@ -417,13 +417,13 @@ font-family: "Roboto", sans-serif;
   height: 44px;
   align-items: center;
   justify-content: center;
-  color: var(--primary-white-color);
+  fill: var(--primery-text-color);
 }
 .red:focus,
 .red:hover {
   background-color: var(--accent-color);
   border-radius: 50%;
-  color: var(--primary-white-color);
+  fill: var(--primary-white-color);
 }
 .encuentranos{
   padding-left: 70px;
