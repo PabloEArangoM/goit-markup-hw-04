@@ -8,6 +8,7 @@
   --second-background: #f5f4fa;
   --footer-background: #2f303a;
 }
+
 /* GENERAL */
 * {
   padding: 0;
@@ -155,7 +156,7 @@ h3 {
 }
 .correo {
   height: 16px;
-  width: 10px;
+  width: 16px;
   margin-right: 10px;
 }
 .correo,
@@ -176,6 +177,13 @@ h3 {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+.correo:hover,
+.correo:focus,
+.telefono:hover,
+.telefono:focus {
+  fill: var(--accent-color);
+}
+
 /* FOOTER */
 footer {
   background-color: #2f303a;
@@ -252,7 +260,7 @@ footer {
   align-items: center;
   justify-content: center;
   background-color: rgba(255, 255, 255, 0.1);
-  color: #ffffff;
+  fill: var(--primary-white-color);
   border-radius: 50%;
 }
 .red-footer:hover {
@@ -361,6 +369,7 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 /* section nuestro-equipo */
 .nuestro-equipo {
   background-color: var(--second-background);
@@ -418,6 +427,7 @@ footer {
   border-radius: 50%;
   fill: var(--primary-white-color);
 }
+
 /* section clientes */
 .lista-empresas {
   display: flex;
@@ -432,11 +442,12 @@ footer {
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   padding: 16px 32px;
-  color: #AFB1B8;
+  fill: var(--primery-text-color);
 }
 .empresa:hover,
 .empresa:focus {
-  color: var(--accent-color);
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
 }
 .empresa-svg {
   height: 60px;
